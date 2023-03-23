@@ -6,6 +6,10 @@ import {
   SiPostman,
   SiHeroku,
   SiVercel,
+  SiReplit,
+  SiDocker,
+  SiAmazonaws,
+  SiVirtualbox
 } from "react-icons/si";
 
 function Toolstack() {
@@ -15,16 +19,16 @@ function Toolstack() {
         <SiLinux />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVisualstudiocode />
+        <SiReplit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiDocker />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiAmazonaws />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiHeroku />
+        <SiVirtualbox />
       </Col>
     </Row>
   );
