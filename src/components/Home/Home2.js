@@ -39,7 +39,7 @@ function Home2() {
               <br />
               <br />
               Occasionally, I use my time to work on creating games using
-              <b className="purple">Unity</b> and other
+              <b className="purple"> Unity</b> and other
               <i>
                 <b className="purple">
                   {" "}
