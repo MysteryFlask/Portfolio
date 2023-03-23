@@ -15,8 +15,7 @@ import {
   DiPhotoshop,
   DiUnitySmall,
   DiAndroid,
-  DiHtml5,
-  DiPhotoshop
+  DiHtml5
 } from "react-icons/di";
 import {
   SiPytorch,
