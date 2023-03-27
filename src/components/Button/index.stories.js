@@ -1,5 +1,5 @@
 import React from 'react';
-import Button from './button';
+import Button from './index';
 import variables from '../../variables';
 const img = require('../../images/facebook.svg');
 
