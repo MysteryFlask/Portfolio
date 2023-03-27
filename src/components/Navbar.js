@@ -12,8 +12,8 @@ import {
   AiOutlineHome,
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
+  AiOutlineLink,
 } from "react-icons/ai";
-import { IoShareSocialOutline } from "react-icons/io";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -89,7 +89,7 @@ function NavBar() {
                 to="/linktree"
                 onClick={() => updateExpanded(false)}
               >
-                <IoShareSocialOutline style={{ marginBottom: "2px" }} /> Socials
+                <AiOutlineLink style={{ marginBottom: "2px" }} /> Socials
               </Nav.Link>
             </Nav.Item>
 
