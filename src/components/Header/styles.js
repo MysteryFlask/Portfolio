@@ -26,3 +26,4 @@ export const Title = styled.h1`
 export const Subtitle = styled.p`
   font-size: 1em;
   font-family: sans-serif
+`
