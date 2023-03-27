@@ -17,8 +17,8 @@ export default function LinkTree() {
       <Button link='https://www.youtube.com/@JMBGamesYT?view_as=subscriber' icon={youtubeLogo} name='Youtube' backgroundColor={variables.youtubeColor} />
       <Button link='https://github.com/mysteryflask' icon={githubLogo} name='Github' backgroundColor={variables.githubColor} />
       <Button link='https://mysteryflask.vercel.app' icon={reactLogo} name='Website' backgroundColor={variables.opt2Color} />
-      <Button link='https://stackoverflow.com/users/14850720/mysteryflask' icon={stackLogo} name='Stack Overflow' backgroundColor={variables.twitterColor} />
-      <Button link='https://discord.com/channels/@me' icon={discordLogo} name='Galaxy111#0001' backgroundColor={variables.twitterColor} />
+      <Button link='https://stackoverflow.com/users/14850720/mysteryflask' icon={stackLogo} name='Stack Overflow' backgroundColor={variables.stackColor} />
+      <Button link='https://discord.com/channels/@me' icon={discordLogo} name='Galaxy111#0001' backgroundColor={variables.discordColor} />
     </Container>
   )
 }
