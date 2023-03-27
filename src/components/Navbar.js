@@ -13,6 +13,7 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
+import { IoShareSocialOutline } from "react-icons/io";
 
 import { CgFileDocument } from "react-icons/cg";
 
@@ -79,6 +80,16 @@ function NavBar() {
                   style={{ marginBottom: "2px" }}
                 />{" "}
                 Projects
+              </Nav.Link>
+            </Nav.Item>
+
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/linktree"
+                onClick={() => updateExpanded(false)}
+              >
+                <IoShareSocialOutline style={{ marginBottom: "2px" }} /> Socials
               </Nav.Link>
             </Nav.Item>
 
