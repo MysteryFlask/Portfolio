@@ -21,7 +21,7 @@ export const Container = styled.a`
 `;
 
 export const Icon = styled.img`
-  height: 20px;
+  height: 50px;
   margin: 0 5px;
   padding: 5px;
 `;
