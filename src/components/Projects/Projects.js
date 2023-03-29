@@ -25,7 +25,7 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Discord Disguised Re-entry"
+              title="Discord DisguisedRecovery"
               description="A Discord bot with some simple embed creation commands that secretly doubles as a way to take back your server if hacked or banned."
               ghLink="https://github.com/MysteryFlask/disguisedbackupbot"
             />
