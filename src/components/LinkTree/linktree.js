@@ -4,6 +4,11 @@ import Button from '../Button';
 import variables from '../../variables';
 import Header from '../Header';
 import Particle from "../Particle";
+import discord from '../../images/discord.svg'
+import github from '../../images/github.svg'
+import youtube from '../../images/youtube.svg'
+import stack from '../../images/stack.svg'
+import react from '../../images/react.svg'
 
 const discordLogo = require('../../images/discord.svg');
 const githubLogo = require('../../images/github.svg');
