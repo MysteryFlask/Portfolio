@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container } from './styles';
-import Button from '../../components/Button';
+import Button from '../../components/Button/index';
 import variables from '../../variables';
 import Header from '../Header';
 import Particle from "../Particle";
