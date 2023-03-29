@@ -15,7 +15,7 @@ export default function LinkTree() {
   return (
     <Container fluid className="project-section">
       <Particle />
-      <Header picture={avatar} title='\nMysteryFlask' subtitle='An Aspiring Developer' style={{ color: 'white' }} />
+      <Header picture={avatar} title='\n' + 'MysteryFlask' subtitle='An Aspiring Developer' style={{ color: 'white' }} />
       <Button link='https://www.youtube.com/@JMBGamesYT?view_as=subscriber' icon={youtube} name='Youtube' backgroundColor={variables.youtubeColor} />
       <Button link='https://github.com/mysteryflask' icon={github} name='Github' backgroundColor={variables.githubColor} />
       <Button link='https://mysteryflask.vercel.app' icon={react} name='Website' backgroundColor={variables.opt2Color} />
