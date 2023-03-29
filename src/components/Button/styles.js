@@ -28,5 +28,5 @@ export const Icon = styled.img`
 
 export const Name = styled.p`
   color: ${variables.textColor};
-  padding: 50px 0;
+  padding: 20px 0;
 `;
