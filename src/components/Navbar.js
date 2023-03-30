@@ -95,7 +95,7 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://mysteryflask.vercel.app/"
+                href="https://mysteryflask.substack.com/"
                 target="_blank"
                 rel="noreferrer"
               >
