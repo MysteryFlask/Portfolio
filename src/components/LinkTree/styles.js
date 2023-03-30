@@ -9,9 +9,3 @@ export const Container = styled.div`
   color: white;
 `;
 
-export const Name = styled.p`
-  color: ${variables.textColor};
-  padding: 21px 0;
-
-margin-bottom:0 !important;
-`;
