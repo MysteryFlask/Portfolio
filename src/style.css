@@ -22,6 +22,10 @@ button:focus {
   box-shadow: none !important;
 }
 
+#tsparticles {
+      z-index: -99999;
+}
+
 /* --------- */
 /*  Preloader */
 /* --------- */
