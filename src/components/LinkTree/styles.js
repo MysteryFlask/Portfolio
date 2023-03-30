@@ -11,7 +11,7 @@ export const Container = styled.div`
 
 export const Name = styled.p`
   color: ${variables.textColor};
-  padding: 20px 0;
+  padding: 21px 0;
 
 margin-bottom:0 !important;
 `;
