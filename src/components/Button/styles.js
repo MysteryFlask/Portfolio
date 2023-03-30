@@ -29,4 +29,6 @@ export const Icon = styled.img`
 export const Name = styled.p`
   color: ${variables.textColor};
   padding: 20px 0;
+
+margin:0;
 `;
