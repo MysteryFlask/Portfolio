@@ -14,7 +14,7 @@ import avatar from '../../Assets/avatar.png'
 export default function LinkTree() {
   return (
     <Container fluid className="project-section">
-      <div style={{zIndex:-999; position:"relative"}}>
+      <div style={{zIndex:-999, position:"relative"}}>
         <Particles /> 
       </div>
       <Header picture={avatar} title='MysteryFlask' subtitle='An Aspiring Developer' style={{ color: 'white' }} />
