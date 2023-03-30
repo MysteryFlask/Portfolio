@@ -14,7 +14,6 @@ import avatar from '../../Assets/avatar.png'
 export default function LinkTree() {
   return (
     <Container fluid className="project-section">
-      <Particle />
       <Header picture={avatar} title='MysteryFlask' subtitle='An Aspiring Developer' style={{ color: 'white' }} />
       <Button link='https://www.youtube.com/@JMBGamesYT?view_as=subscriber' icon={youtube} name='Youtube' backgroundColor={variables.youtubeColor} />
       <Button link='https://github.com/mysteryflask' icon={github} name='Github' backgroundColor={variables.githubColor} />
