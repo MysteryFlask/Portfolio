@@ -25,7 +25,7 @@ function Projects() {
             <ProjectCard
               imgPath={chatify}
               isBlog={false}
-              title="Discord DisguisedRecovery"
+              title="Discord Disguised Recovery"
               description="A Discord bot with some simple embed creation commands that secretly doubles as a way to take back your server if hacked or banned."
               ghLink="https://github.com/MysteryFlask/disguisedbackupbot"
             />
@@ -55,7 +55,7 @@ function Projects() {
             <ProjectCard
               imgPath={leaf}
               isBlog={false}
-              title="PingBadgeBot"
+              title="Active Ping Bot"
               description="An extremely simple Python discord bot that allows users with almost no coding experience to acquire, and retain the Discord active developer badge."
               ghLink="https://github.com/MysteryFlask/PingBadgeBot"
             />
@@ -65,7 +65,7 @@ function Projects() {
             <ProjectCard
               imgPath={suicide}
               isBlog={false}
-              title="JavascriptFrameStorage [COMING SOON]"
+              title="ReactFrameStorage [COMING SOON]"
               description="Uses React.js to build a website with styling included that allows you to store links in frames, that can be moved around and resized, using your browser's local storage."
               ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
             />
