@@ -2,15 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import active from "../../Assets/Projects/active.png";
 import ratings from "../../Assets/Projects/ratings.png";
 import broken from "../../Assets/Projects/broken.png";
+import soon from "../../Assets/Projects/soon.png";
 
 function Projects() {
   return (
@@ -76,7 +73,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={soon}
               isBlog={false}
               title="More projects soon..."
               description="I am always developing something, so expect something new here pretty soon!"
