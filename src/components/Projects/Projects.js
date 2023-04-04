@@ -7,7 +7,10 @@ import emotion from "../../Assets/Projects/emotion.png";
 import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/Projects/chatify.png";
 import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import portfolio from "../../Assets/Projects/portfolio.png";
+import active from "../../Assets/Projects/active.png";
+import ratings from "../../Assets/Projects/ratings.png";
+import broken from "../../Assets/Projects/broken.png";
 
 function Projects() {
   return (
@@ -23,7 +26,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={broken}
               isBlog={false}
               title="Discord Disguised Recovery"
               description="A Discord bot with some simple embed creation commands that secretly doubles as a way to take back your server if you are ever hacked or banned."
@@ -33,7 +36,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={portfolio}
               isBlog={false}
               title="Portfolio"
               description="My personal website, with multiple pages and animated components, built with React.js and the help of Soumyajit Behera."
@@ -43,7 +46,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={ratings}
               isBlog={false}
               title="FilmRatingsUK"
               description="A UK-based Discord bot that gets unofficial film and tv show age ratings using multiple APIs and web scraping."
@@ -53,7 +56,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={leaf}
+              imgPath={active}
               isBlog={false}
               title="Active Ping Bot"
               description="An extremely simple Python discord bot that allows users with almost no coding experience to acquire, and retain the Discord active developer badge."
