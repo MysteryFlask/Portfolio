@@ -38,6 +38,7 @@ function Projects() {
               title="Portfolio"
               description="My personal website, with multiple pages and animated components, built with React.js and the help of Soumyajit Behera."
               ghLink="https://github.com/MysteryFlask/Portfolio"
+              demoLink="https://mysteryflask.vercel.app"
             />
           </Col>
 
@@ -67,7 +68,8 @@ function Projects() {
               isBlog={false}
               title="ReactFrameStorage [COMING SOON]"
               description="Uses React.js to build a website with styling included that allows you to store links in frames, that can be moved around and resized, using your browser's local storage."
-              ghLink="https://github.com/soumyajit4419/AI_For_Social_Good"
+              ghLink="https://github.com/MysteryFlask/ReactFrameStorage"
+              demoLink="https://react-frame-storage.vercel.app/"
             />
           </Col>
 
@@ -76,8 +78,8 @@ function Projects() {
               imgPath={soon}
               isBlog={false}
               title="More projects soon..."
-              description="I am always developing something, so expect something new here pretty soon!"
-              ghLink="https://github.com/soumyajit4419/Face_And_Emotion_Detection"
+              description="I am always developing something, so check my GitHub projects page and expect something new here pretty soon!"
+              ghLink="https://github.com/MysteryFlask"
             />
           </Col>
         </Row>
