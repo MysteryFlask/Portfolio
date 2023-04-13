@@ -2,12 +2,11 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import suicide from "../../Assets/Projects/suicide.png";
-import portfolio from "../../Assets/Projects/portfolio.png";
-import active from "../../Assets/Projects/active.png";
-import ratings from "../../Assets/Projects/ratings.png";
-import broken from "../../Assets/Projects/broken.png";
 import soon from "../../Assets/Projects/soon.png";
+import computer from "../../Assets/Projects/computer.png";
+import portfolio from "../../Assets/Projects/portfolioimg.png";
+import rating from "../../Assets/Projects/rating.png";
+import badge from "../../Assets/Projects/badge.png";
 
 function Projects() {
   return (
@@ -23,7 +22,7 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={broken}
+              imgPath={computer}
               isBlog={false}
               title="Discord Disguised Recovery"
               description="A Discord bot with some simple embed creation commands that secretly doubles as a way to take back your server if you are ever hacked or banned."
@@ -44,7 +43,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={ratings}
+              imgPath={rating}
               isBlog={false}
               title="FilmRatingsUK"
               description="A UK-based Discord bot that gets unofficial film and tv show age ratings using multiple APIs and web scraping."
@@ -54,7 +53,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={active}
+              imgPath={badge}
               isBlog={false}
               title="Active Ping Bot"
               description="An extremely simple Python discord bot that allows users with almost no coding experience to acquire, and retain the Discord active developer badge."
@@ -64,7 +63,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={suicide}
+              imgPath={soon}
               isBlog={false}
               title="ReactFrameStorage [COMING SOON]"
               description="Uses React.js to build a website with styling included that allows you to store links in frames, that can be moved around and resized, using your browser's local storage."
