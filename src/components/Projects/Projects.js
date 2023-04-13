@@ -7,6 +7,7 @@ import computer from "../../Assets/Projects/computer.png";
 import portfolio from "../../Assets/Projects/portfolioimg.png";
 import rating from "../../Assets/Projects/rating.png";
 import badge from "../../Assets/Projects/badge.png";
+import storage from "../../Assets/Projects/storage.png";
 
 function Projects() {
   return (
@@ -63,10 +64,10 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={soon}
+              imgPath={storage}
               isBlog={false}
-              title="ReactFrameStorage [COMING SOON]"
-              description="Uses React.js to build a website with styling included that allows you to store links in frames, that can be moved around and resized, using your browser's local storage."
+              title="ReactFrameStorage"
+              description="A React.js website that allows you to store links and their contents in movable, resizable frames for future use."
               ghLink="https://github.com/MysteryFlask/ReactFrameStorage"
               demoLink="https://react-frame-storage.vercel.app/"
             />
