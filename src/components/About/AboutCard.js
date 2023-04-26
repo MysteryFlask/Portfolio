@@ -27,7 +27,7 @@ function AboutCard() {
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
+          <p style={{ color: "rgb(3, 173, 142)" }}>
             "Turn your errors into catalysts for innovation and growth!"{" "}
           </p>
           <footer className="blockquote-footer">MysteryFlask, 2023</footer>
