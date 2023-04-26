@@ -14,10 +14,6 @@ html {
   --imp-text-color: #03ad8e;
 }
 
-.purple {
-  color: var(--imp-text-color) !important;
-}
-
 .aqua {
   color: var(--imp-text-color) !important;
 }
