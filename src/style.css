@@ -747,8 +747,9 @@ button:focus {
   display: none !important;
 }
 
+/* Linktree Container */
 .linktree-section {
   position: relative !important;
-  padding-top: 150px !important;
+  padding-top: 100px !important;
   padding-bottom: 30px !important;
 }
