@@ -7,6 +7,5 @@ export const Container = styled.div`
   width: 80%;
   background: transparent;
   color: white;
-  opacity: ${props => props.imgOpacity};
 `;
 
