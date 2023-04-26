@@ -748,5 +748,7 @@ button:focus {
 }
 
 .linktree-section {
-  opacity: 0.5;
+  position: relative !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
 }
