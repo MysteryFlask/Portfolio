@@ -322,6 +322,8 @@ button:focus {
 }
 
 .home-about-section {
+  z-index: -1;
+  background-image: var(--image-gradient), url(./Assets/home-about.png);
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
