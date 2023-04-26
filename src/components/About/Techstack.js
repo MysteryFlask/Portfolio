@@ -11,16 +11,16 @@ import {
   DiApple,
   DiDjango,
   DiDocker,
-  DiMarkdown,
-  DiPhotoshop,
   DiUnitySmall,
   DiAndroid,
-  DiHtml5
+  DiHtml5,
+  DiJava
 } from "react-icons/di";
 import {
   SiPytorch,
   SiFirebase,
   SiNextdotjs,
+  SiFlask
 } from "react-icons/si";
 
 function Techstack() {
@@ -42,7 +42,7 @@ function Techstack() {
         <DiDjango />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiMarkdown />
+        <SiFlask />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiUnitySmall />
@@ -54,7 +54,7 @@ function Techstack() {
         <DiHtml5 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPhotoshop />
+        <DiJava />
       </Col>
     </Row>
   );
