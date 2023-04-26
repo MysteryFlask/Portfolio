@@ -746,3 +746,7 @@ button:focus {
 .fork-btn-inner::after {
   display: none !important;
 }
+
+.linktree-section {
+  opacity: 0.5;
+}
