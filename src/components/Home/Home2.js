@@ -17,38 +17,38 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              ABOUT <span className="purple"> ME </span>
+              ABOUT <span className="aqua"> ME </span>
             </h1>
             <p className="home-about-body">
               I have a passion for programming and software development, and I love to do it in my free time!
               <br />
               <br />I am good at coding in
               <i>
-                <b className="purple"> Python, Javascript and Linux. </b>
+                <b className="aqua"> Python, Javascript and Linux. </b>
               </i>
               <br />
               <br />
               My specific fields of interest are building new &nbsp;
               <i>
-                <b className="purple">Discord Bots, Flask and React.js websites and Linux programs </b> as well as
+                <b className="aqua">Discord Bots, Flask and React.js websites and Linux programs </b> as well as
                 areas related to{" "}
-                <b className="purple">
+                <b className="aqua">
                   Artificial Intelligence and Data Science.
                 </b>
               </i>
               <br />
               <br />
               Occasionally, I use my time to work on creating games using
-              <b className="purple"> Unity</b> and other
+              <b className="aqua"> Unity</b> and other
               <i>
-                <b className="purple">
+                <b className="aqua">
                   {" "}
                   Game Development Engines
                 </b>
               </i>
               &nbsp; like
               <i>
-                <b className="purple"> Unreal Engine and Construct 3</b>
+                <b className="aqua"> Unreal Engine and Construct 3</b>
               </i>
             </p>
           </Col>
