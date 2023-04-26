@@ -23,33 +23,25 @@ function Home2() {
               I have a passion for programming and software development, and I love to do it in my free time!
               <br />
               <br />I am good at coding in
-              <i>
-                <b className="aqua"> Python, Javascript and Linux. </b>
-              </i>
+              <b className="aqua"> Python, Javascript and Linux. </b>
               <br />
               <br />
               My specific fields of interest are building new &nbsp;
-              <i>
-                <b className="aqua">Discord Bots, Flask and React.js websites and Linux programs </b> as well as
-                areas related to{" "}
-                <b className="aqua">
-                  Artificial Intelligence and Data Science.
-                </b>
-              </i>
+              <b className="aqua">Discord Bots, Flask and React.js websites and Linux programs </b> as well as
+              areas related to{" "}
+              <b className="aqua">
+                Artificial Intelligence and Data Science.
+              </b>
               <br />
               <br />
               Occasionally, I use my time to work on creating games using
               <b className="aqua"> Unity</b> and other
-              <i>
-                <b className="aqua">
-                  {" "}
-                  Game Development Engines
-                </b>
-              </i>
+              <b className="aqua">
+                {" "}
+                Game Development Engines
+              </b>
               &nbsp; like
-              <i>
-                <b className="aqua"> Unreal Engine and Construct 3</b>
-              </i>
+              <b className="aqua"> Unreal Engine and Construct 3</b>
             </p>
           </Col>
           <Col md={4} className="myAvtar">
