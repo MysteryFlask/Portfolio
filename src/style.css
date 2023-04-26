@@ -18,6 +18,10 @@ html {
   color: var(--imp-text-color) !important;
 }
 
+.aqua {
+  color: var(--imp-text-color) !important;
+}
+
 button:focus {
   box-shadow: none !important;
 }
