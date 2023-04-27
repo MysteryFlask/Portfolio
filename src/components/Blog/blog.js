@@ -19,8 +19,8 @@ const Blog = () => {
       substackUrl: "mysteryflask.substack.com",
       posts: 3,
       colors: {
-        primary: "#404040",
-        secondary: "#808080",
+        primary: "#FFFFFF",
+        secondary: "#FFFFFF",
         background: "#FFFFFF00",
       }
     };
