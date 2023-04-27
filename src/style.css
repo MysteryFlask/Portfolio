@@ -750,6 +750,6 @@ button:focus {
 /* Linktree Container */
 .linktree-section {
   position: relative !important;
-  padding-top: 100px !important;
+  padding-top: 80px !important;
   padding-bottom: 30px !important;
 }
