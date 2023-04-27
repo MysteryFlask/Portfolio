@@ -17,7 +17,7 @@ const Blog = () => {
   useEffect(() => {
     window.SubstackFeedWidget = {
       substackUrl: "pandorasykes.substack.com",
-      posts: 20,
+      posts: 12,
       colors: {
         primary: "#FFFFFF",
         secondary: "#FFFFFF",
