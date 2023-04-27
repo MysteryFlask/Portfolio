@@ -34,7 +34,7 @@ const Blog = () => {
           <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Who am I?
           </h1>
-          <p1 style={{ paddingBottom: "40px" }}>
+          <p1 style={{ paddingBottom: "20px" }}>
               This is my Substack blog written almost entirely by ChatGPT and AI. All I do is think of the topics...
           </p1>
           <div id="substack-feed-embed"></div>
