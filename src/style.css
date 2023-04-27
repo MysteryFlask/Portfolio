@@ -757,7 +757,7 @@ button:focus {
 /* Blog Container */
 .blog-main {
   padding-top: 80px !important;
-  padding-bottom: 100px !important;
+  padding-bottom: 30px !important;
   width: 800px !important;
   margin-left: auto !important;
   margin-right: auto !important;
