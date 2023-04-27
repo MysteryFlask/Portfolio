@@ -1,5 +1,6 @@
 import React, { useEffect } from 'react';
 import { Container } from "react-bootstrap";
+import Particle from "../Particle";
 
 const Blog = () => {
   useEffect(() => {
