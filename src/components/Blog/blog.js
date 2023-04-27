@@ -31,6 +31,9 @@ const Blog = () => {
       <Particle />
       <Container>
         <div>
+          <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
+              Who am I?
+          </h1>
           <div id="substack-feed-embed"></div>
         </div>
       </Container>
