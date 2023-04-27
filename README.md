@@ -17,7 +17,7 @@
 
 ## Licensing
 
-Credit to [Soumyajit4419](https://github.com/soumyajit4419/) for building the backend of this whole project.
+Credit to [Soumyajit4419](https://github.com/soumyajit4419/) for building the base template of this project.
 
 ## Built With
 
