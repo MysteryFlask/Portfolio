@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+import { Container } from "react-bootstrap";
 
 const Blog = () => {
   useEffect(() => {
@@ -25,9 +26,14 @@ const Blog = () => {
   }, []);
 
   return (
-    <div>
-      <div id="substack-feed-embed"></div>
-    </div>
+    <Container fluid className="blog-main">
+      <Particle />
+      <Container>
+        <div>
+          <div id="substack-feed-embed"></div>
+        </div>
+      </Container>
+    </Container>
   );
 }
 
