@@ -6,7 +6,7 @@ import About from "./components/About/About";
 import Projects from "./components/Projects/Projects";
 import Footer from "./components/Footer";
 import LinkTree from "./components/LinkTree/linktree";
-import Blog from "./components/Blog/Blog";
+import Blog from "./components/Blog/blog";
 import {
   BrowserRouter as Router,
   Route,
