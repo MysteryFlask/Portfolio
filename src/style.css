@@ -753,3 +753,9 @@ button:focus {
   padding-top: 80px !important;
   padding-bottom: 30px !important;
 }
+
+/* Blog Container */
+.blog-main {
+  padding-top: 80px !important;
+  padding-bottom: 30px !important;
+}
