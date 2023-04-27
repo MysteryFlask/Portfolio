@@ -12,23 +12,21 @@ const Blog = () => {
     }
   }, []);
 
+  useEffect(() => {
+    window.SubstackFeedWidget = {
+      substackUrl: "mysteryflask.substack.com",
+      posts: 3,
+      colors: {
+        primary: "#404040",
+        secondary: "#808080",
+        background: "#FFFFFF00",
+      }
+    };
+  }, []);
+
   return (
     <div>
       <div id="substack-feed-embed"></div>
-
-      <script>
-        window.SubstackFeedWidget = {
-          substackUrl: "mysteryflask.substack.com",
-          posts: 3,
-          colors: {
-            primary: "#404040",
-            secondary: "#808080",
-            background: "#FFFFFF00",
-          }
-        };
-      </script>
-
-      <script src="https://substackapi.com/embeds/feed.js" async></script>
     </div>
   );
 }
