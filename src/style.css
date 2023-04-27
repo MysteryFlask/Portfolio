@@ -248,7 +248,6 @@ button:focus {
 }
 #tsparticles {
   position: fixed !important;
-  background-color: #025647;
   background-repeat: no-repeat !important;
   background-size: cover !important;
   width: 100%;
