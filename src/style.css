@@ -683,3 +683,7 @@ button:focus {
   background-position: top center !important;
   background-repeat: no-repeat !important;
 }
+
+.linktree-bg {
+  background-image: var(--section-background-color) !important;
+}
