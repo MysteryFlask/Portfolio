@@ -680,6 +680,6 @@ button:focus {
 
 .container-fluid {
   background-image: var(--section-background-color) !important;
-  background-position: top center;
-  background-repeat: no-repeat;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
 }
