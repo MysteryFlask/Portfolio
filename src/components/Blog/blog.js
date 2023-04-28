@@ -27,7 +27,7 @@ const Blog = () => {
   }, []);
 
   return (
-    <div class="container-fluid">
+    <div className="container-fluid">
       <Container fluid className="blog-main">
         <Particle />
         <Container>
