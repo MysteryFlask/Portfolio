@@ -676,6 +676,7 @@ button:focus {
   margin-left: auto !important;
   margin-right: auto !important;
   color: white !important;
+  background-image: var(--section-background-color) !important;
   background-position: top center;
   background-repeat: no-repeat;
 }
