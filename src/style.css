@@ -1,6 +1,9 @@
 html {
-  --section-background-color: rgba(5, 26, 26, 0.690);
-
+  --section-background-color: linear-gradient(
+    to bottom left,
+    rgba(1, 43, 36, 0.582),
+    rgba(0, 22, 18, 0.904)
+  );
   --image-gradient: linear-gradient(
     to bottom left,
     rgba(17, 16, 16, 0.678),
