@@ -9,7 +9,7 @@ import youtube from '../../images/youtube.svg'
 import stack from '../../images/stack.svg'
 import react from '../../images/react.svg'
 import avatar from '../../Assets/avatar.png'
-import { Container } from "react-bootstrap";
+import { Container } from './styles.js'
 
 export default function LinkTree() {
   return (
