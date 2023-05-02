@@ -1,5 +1,4 @@
 import React from 'react';
-import { LinkContainer } from './styles';
 import Button from '../Button';
 import variables from '../../variables';
 import Header from '../Header';
@@ -16,14 +15,12 @@ export default function LinkTree() {
   return (
     <Container fluid className="linktree-bg">
       <Particle />
-      <LinkContainer fluid className="linktree-section">
         <Header picture={avatar} title='MysteryFlask' subtitle='An Aspiring Developer' style={{ color: 'white' }} />
         <Button link='https://www.youtube.com/@JMBGamesYT?view_as=subscriber' icon={youtube} name='Youtube' backgroundColor={variables.youtubeColor} />
         <Button link='https://github.com/mysteryflask' icon={github} name='Github' backgroundColor={variables.githubColor} />
         <Button link='https://mysteryflask.vercel.app' icon={react} name='Website' backgroundColor={variables.opt2Color} />
         <Button link='https://stackoverflow.com/users/14850720/mysteryflask' icon={stack} name='Stack Overflow' backgroundColor={variables.stackColor} />
         <Button link='https://discord.com/channels/@me' icon={discord} name='Galaxy111#0001' backgroundColor={variables.discordColor} />
-      </LinkContainer>
     </Container>
   )
 }
