@@ -682,13 +682,9 @@ button:focus {
   background-image: var(--section-background-color) !important;
   background-position: top center !important;
   background-repeat: no-repeat !important;
-  width: 100vh;
-  height: 100vh;
 }
 
 .linktree-bg {
   position: relative !important;
   background-image: var(--section-background-color) !important;
-  width: 100vh;
-  height: 100vh;
 }
