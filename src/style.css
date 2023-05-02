@@ -677,12 +677,6 @@ button:focus {
   color: white !important;
 }
 
-.container-fluid {
-  position: relative !important;
-  background-image: var(--section-background-color) !important;
-  background-position: top center !important;
-  background-repeat: no-repeat !important;
-}
 
 .linktree-bg {
   position: relative !important;
