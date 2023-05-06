@@ -11,7 +11,7 @@ export const Container = styled.a`
   justify-content: center;
   margin: 10px auto;
   text-decoration: none;
-  width: 200px;
+  width: 300px;
   
   transition: background 0.4s ease-in-out;
 
