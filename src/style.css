@@ -674,6 +674,6 @@ button:focus {
   background: transparent;
   color: white;
   background-image: var(--section-background-color) !important;
-  padding-top: 150px !important;
+  padding-top: 110px !important;
   padding-bottom: 30px !important;
 }
