@@ -13,7 +13,7 @@ export const Container = styled.a`
   text-decoration: none;
   width: 100%;
   
-  transition: background 0.2s ease-in-out;
+  transition: background 0.9s ease-in-out;
 
   &:hover {
     background: ${(props) => lighten('0.1', props.backgroundColor)};
