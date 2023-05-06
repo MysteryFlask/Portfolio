@@ -676,3 +676,7 @@ button:focus {
   padding-top: 60px !important;
   padding-bottom: 10px !important;
 }
+
+.substackcontent {
+  width: 300px;
+}
