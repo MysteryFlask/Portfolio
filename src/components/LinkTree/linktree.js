@@ -13,7 +13,7 @@ import { Container } from 'react-bootstrap'
 
 function Linktree() {
   return (
-    <Container fluid className="project-section">
+    <Container fluid className="socialpage-section">
       <Particle />
       <Container>
         <Header picture={avatar} title='MysteryFlask' subtitle='An Aspiring Developer' style={{ color: 'white' }} />
