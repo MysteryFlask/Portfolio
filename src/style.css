@@ -684,3 +684,11 @@ button:focus {
   background-position: top center !important;
   background-repeat: no-repeat !important;
 }
+
+.socialpage-section {
+  margin: 30px auto;
+  max-width: 320px;
+  width: 80%;
+  background: transparent;
+  color: white;
+]
