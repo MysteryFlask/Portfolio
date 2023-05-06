@@ -30,7 +30,7 @@ const Blog = () => {
     <Container fluid className="blog-main">
       <Particle />
       <Container>
-        <div>
+        <div class="substackcontent">
           <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Who am I?
           </h1>
