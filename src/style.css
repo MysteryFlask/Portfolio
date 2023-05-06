@@ -660,13 +660,6 @@ button:focus {
   display: none !important;
 }
 
-/* Linktree Container */
-.linktree-section {
-  position: relative !important;
-  padding-top: 80px !important;
-  padding-bottom: 30px !important;
-}
-
 /* Blog Container */
 .blog-main {
   padding-top: 80px !important;
@@ -677,16 +670,10 @@ button:focus {
   color: white !important;
 }
 
-
-.linktree-bg {
-  position: relative !important;
-  background-image: var(--section-background-color) !important;
-  background-position: top center !important;
-  background-repeat: no-repeat !important;
-}
-
 .socialpage-section {
   background: transparent;
   color: white;
   background-image: var(--section-background-color) !important;
+  padding-top: 150px !important;
+  padding-bottom: 30px !important;
 }
