@@ -17,7 +17,7 @@ function Linktree() {
       <Particle />
       <Container>
         <Header picture={avatar} title='MysteryFlask' subtitle='An Aspiring Developer' style={{ color: 'white' }} />
-        <Button style={{ width: "100px", height: "50px",}} link='https://www.youtube.com/@JMBGamesYT?view_as=subscriber' icon={youtube} name='Youtube' backgroundColor={variables.youtubeColor} />
+        <Button link='https://www.youtube.com/@JMBGamesYT?view_as=subscriber' icon={youtube} name='Youtube' backgroundColor={variables.youtubeColor} />
         <Button link='https://github.com/mysteryflask' icon={github} name='Github' backgroundColor={variables.githubColor} />
         <Button link='https://mysteryflask.vercel.app' icon={react} name='Website' backgroundColor={variables.opt2Color} />
         <Button link='https://stackoverflow.com/users/14850720/mysteryflask' icon={stack} name='Stack Overflow' backgroundColor={variables.stackColor} />
