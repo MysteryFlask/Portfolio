@@ -324,6 +324,7 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+  background-image: var(--section-background-color) !important;
 }
 
 .home-about-description {
