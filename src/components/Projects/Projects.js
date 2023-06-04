@@ -67,7 +67,7 @@ function Projects() {
               imgPath={storage}
               isBlog={false}
               title="ReactFrameStorage"
-              description="A React.js website that allows you to store links and their contents in movable, resizable frames for future use."
+              description="A React.js website that allows you to store links and their contents in movable, resizable frames for future use, using the browser local storage and a few external modules."
               ghLink="https://github.com/MysteryFlask/ReactFrameStorage"
               demoLink="https://react-frame-storage.vercel.app/"
             />
@@ -77,9 +77,9 @@ function Projects() {
             <ProjectCard
               imgPath={soon}
               isBlog={false}
-              title="More projects soon..."
-              description="I am always developing something, so check my GitHub projects page and expect something new here pretty soon!"
-              ghLink="https://github.com/MysteryFlask"
+              title="Meal Finder Plus"
+              description="A single page React app which uses an API to randomly find recipes from across the internet with a few simple parameters, using a user-friendly UI."
+              ghLink="https://github.com/MysteryFlask/MealFinderPublic"
             />
           </Col>
         </Row>
